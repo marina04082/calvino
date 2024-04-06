@@ -1,0 +1,157 @@
+body{
+    background-color:rgb(255, 255, 255);
+        font-family: "Catamaran", "Montserrat" sans-serif;
+        color: black;
+        margin: 0;
+}
+header{
+    color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  padding: 20px 48px;
+}
+header nav {
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+}
+header nav a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: "catamaran";
+
+}
+header nav a:hover{
+    text-decoration: underline;
+    color: rgb(101, 102, 102);
+}
+#rectangle{
+    width: 2px;
+    height: 53px;
+    background-color: black;
+}
+
+.hero div {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hero h1{
+    font-family: "catamaran";
+    font-weight: 400;
+    font-size: 100px;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+
+img {
+    margin: 0%;
+    max-width: 100%;
+}
+
+.hero h2{
+    font-family: "montserrat";
+    font-weight: 150;
+    margin-top: 0px;
+    margin-bottom: 123px;
+    text-align: center;
+}
+
+.primo h2, .secondo h1, .terzo h1{
+    font-family: "catamaran";
+    font-weight: 400;
+    font-size: 110px;
+    text-align: center;
+    margin-bottom: 160px;
+    margin-top: 120px;
+
+}
+.primo div.paragrafo, .secondo div.paragrafo, .terzo div.paragrafo{
+    font-family: "bellota text";
+    font-size: 32px;
+    font-weight: 300px;
+    max-width: 1000px;
+    margin: 0 auto 123px;
+}
+
+.parteuno {
+    padding-bottom: 80px;
+}
+
+.partedue {
+    padding-bottom: 100px;
+}
+
+.primo .immagini {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.terzo .progetto h1 {
+    text-align: center;
+  
+}
+.terzo img {
+    margin: 0 0 0 900px;
+    max-width: 25%;
+}
+footer .fine{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    align-items: center;
+    padding: 20px 48px;
+    margin-top: 100px;
+}
+footer .fine p{
+    font-size: 30px;
+    color: black;
+    font-family: "catamaran";
+    font-weight: thin;
+}
+footer .fine .social {
+    max-width: 5%;
+    display: flex;
+    gap: 30px;
+}
+
+@media (max-width:600px) {
+    .primo .immagini {
+        max-width: 50%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto;
+        gap: 20px;
+    }
+    .hero h2{
+        font-family: "montserrat";
+        font-weight: 150;
+        margin-top: 0px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    
+    .primo h2, .secondo h1, .terzo h1{
+        font-family: "catamaran";
+        font-weight: 400;
+        font-size: 55px;
+        text-align: center;
+        margin-bottom: 80px;
+        margin-top: 60px;
+    
+    }
+    .primo div.paragrafo, .secondo div.paragrafo, .terzo div.paragrafo{
+        font-family: "bellota text";
+        font-size: 16px;
+        font-weight: 300px;
+        max-width: 600px;
+        margin: 0 auto 60px;
+    }
+
+}
